@@ -2,7 +2,7 @@
 
 Analysis of 2,250+ data analyst job postings using Python and Tableau to identify in-demand skills and market segments.
 
-**[View Interactive Dashboard]((https://public.tableau.com/views/DataAnalystJobPostingAnalysis_17636024090960/Dashboard1?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link))**
+**[View Interactive Dashboard](https://public.tableau.com/views/DataAnalystJobPostingAnalysis_17636024090960/Dashboard1?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)**
 
 ## Key Findings
 
