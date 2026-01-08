@@ -1,34 +1,38 @@
-# data-analyst-job-market-analysis
-Analysis of 2,250+ data analyst job postings using Python and Tableau
+# Data Analyst Job Market Analysis
+
+Analysis of 2,250+ data analyst job postings using Python and Tableau to identify in-demand skills and market segments.
+
+**[View Interactive Dashboard]((https://public.tableau.com/views/DataAnalystJobPostingAnalysis_17636024090960/Dashboard1?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link))**
+
 ## Key Findings
 
-- **SQL** is the most required skill (62% of postings)
-- **Excel** remains critical (61% of jobs)
-- **Python** (28%) and **Tableau** (28%) are tied for 3rd/4th most requested
-- **Machine Learning** mentioned in 21% of postings
+- SQL (62%) and Excel (61%) dominate across all experience levels
+- Python (28%) and Tableau (28%) tied for 3rd/4th most requested
+- Machine Learning mentioned in 21% of postings
 - Only 5% of jobs explicitly labeled "Entry Level"
+
+## Cluster Analysis
+
+Applied k-means clustering to segment the job market by skill mix, seniority, and location:
+
+| Cluster | Description | Top Skills |
+|---------|-------------|------------|
+| SAS/Legacy | Healthcare/pharma roles | SAS, SQL, Excel |
+| Traditional BI | Largest segment | SQL, Excel, Statistics |
+| Python-focused | Technical analyst roles | Python, SQL, Excel |
+| Big Data | Engineering-adjacent | Spark, SQL, Python |
 
 ## Tools & Technologies
 
-- **Python**: pandas, numpy, regex
-- **Data Cleaning**: Salary extraction, text parsing, feature engineering
-- **Next Step**: Interactive Tableau dashboard (coming soon)
+- **Python**: pandas, numpy, scikit-learn
+- **Visualization**: Tableau
+- **Analysis**: K-means clustering, text parsing, feature engineering
 
 ## Project Files
 
-- `data_analyst_cleaning.ipynb` - Complete data cleaning and analysis pipeline
-- Extracted skills from job descriptions using keyword matching
-- Categorized jobs by seniority level
-- Cleaned salary ranges and geographic data
+- `data_analyst_cleaning.ipynb` - Data cleaning, analysis, and clustering pipeline
 
-## Skills Demonstrated
+## Dataset
 
-- Data cleaning and preprocessing
-- Text parsing and pattern matching
-- Feature engineering
-- Exploratory data analysis
-
----
-
-**Dataset**: 2,252 Data Analyst job postings from Glassdoor  
-**Location Focus**: United States (Top states: CA, TX, NY)
+2,252 Data Analyst job postings from Glassdoor  
+Location: United States (Top states: CA, TX, NY)
